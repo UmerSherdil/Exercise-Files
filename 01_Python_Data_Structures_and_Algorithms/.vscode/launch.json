@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Remote Attach",
+            "type": "python",
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 5678
+            },
+            "pathMappings": [
+                {
+                    "localRoot": "D:\\05_Further_Learning\\Linkedin_Learning\\01_Python_Data_Structures_and_Algorithms\\test.py",
+                    "remoteRoot": "/proj/fem211c/AUSTAUSCH/Umer/oneclick-toolbox/test99.py"
+                }
+            ],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true
+        }
+    ]
+}
