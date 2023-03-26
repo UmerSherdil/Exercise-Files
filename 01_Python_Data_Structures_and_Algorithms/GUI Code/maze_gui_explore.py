@@ -262,6 +262,6 @@ class MazeGUI:
 
 if __name__ == "__main__":
     maze_grid, maze_dimensions, maze_obstacles, player_start_pos, opponent_start_pos = helpers.read_maze_from_file(
-        config.MAZE_FILE)
+        'D:/05_Further_Learning/Linkedin_Learning/01_Python_Data_Structures_and_Algorithms/GUI Code/' + config.MAZE_FILE)
     MazeGUI(maze_grid, maze_dimensions, maze_obstacles, opponent_start_pos)
     turtle.done()
