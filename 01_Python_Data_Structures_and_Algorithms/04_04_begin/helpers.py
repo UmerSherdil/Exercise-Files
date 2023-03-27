@@ -30,7 +30,7 @@ def read_maze(file_name):
         raise SystemExit
 
 
-def is_legal_pos(maze, pos):
+def is_legal_pos(maze, pos) -> bool:
     i, j = pos
     num_rows = len(maze)
     num_cols = len(maze[0])
